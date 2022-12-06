@@ -3,6 +3,7 @@ import { ContainerStyled, HeaderStyled, SubTitleStyled, TitleStyled } from './Ho
 import { IconButton } from '../../components/IconButton';
 
 const HomePage = () => {
+    console.log(typeof null);
 
   return (
     <ContainerStyled>

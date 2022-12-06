@@ -17,7 +17,6 @@ export const getAllLaunches = createAsyncThunk(
   'Launches/getLaunches',
   async ({ page, success, rocket, date }: PostLaunchData) => {
     const { data } = await loadLaunches({ page, success, rocket, date });
-    console.log(data);
     let launchData = data.docs;
 
     if (rocket) {
